@@ -1,6 +1,20 @@
 
+
+# mac spesfikke alias
+if test (uname) = Darwin
+    alias up "brew update && brew upgrade"
+    alias bs "brew search"
+    alias bi "bash ~/skript/list_brew_with_info.sh"
+
+    # quicknotes aliases
+    alias qn "bash ~/skript/list_qn.sh"
+    alias nqn "bash ~/skript/make_new_qn.sh"
+    alias cd_qn "cd ~/Documents/ObsidianFiles/Main/quicknotes/"
+end
+
+
+
 alias pubip "curl -s https://api.ipify.org"
-alias bs "brew search"
 alias c clear
 alias cat "bat --theme='OneHalfDark' "
 alias f 'cd $(find . -type d -print | fzf)'
@@ -12,7 +26,6 @@ alias purevim vim
 alias clac "bc -l"
 alias visWatt "ioreg -r -c AppleSmartBattery | grep Watts"
 alias tailscale "/Applications/Tailscale.app/Contents/MacOS/Tailscale"
-alias up "brew update && brew upgrade"
 alias v nvim
 alias vim nvim
 alias y yazi
@@ -28,14 +41,13 @@ alias fzf2 "fzf --preview 'fzf-preview.sh {}' --bind 'focus:transform-header:fil
 
 # config files
 alias fishy "nvim ~/.config/fish/config.fish"
-alias aliass "vim ~/.config/fish/alias.fish"
+alias aliass "nvim ~/.config/fish/alias.fish"
 
 alias ghs "vim ~/.config/ghostty/config"
 alias ala "nvim ~/.config/alacritty/alacritty.toml"
 alias tc "nvim ~/.tmux.conf"
 
 ## random skripts
-alias bi "bash ~/skript/list_brew_with_info.sh"
 alias ws "bash ~/skript/websiteSkript.sh"
 
 # eza
@@ -44,13 +56,8 @@ alias l1 "eza -1 --icons "
 alias ls "eza --icons --sort=date "
 alias lst "eza -l --icons --sort=type"
 
-# quicknotes aliases
-alias qn "bash ~/skript/list_qn.sh"
-alias nqn "bash ~/skript/make_new_qn.sh"
-alias cd_qn "cd ~/Documents/ObsidianFiles/Main/quicknotes/"
-
 # tmux files 
-alias tmuxinit "bash ~/skript/tmux-sessionizer.sh"
-alias ti "bash ~/skript/tmux-sessionizer.sh"
-alias tm "bash ~/skript/create-main.sh"
+alias tmuxinit "bash ~/.config/script/tmux-sessionizer.sh"
+alias ti "bash ~/.config/script/tmux-sessionizer.sh"
+alias tm "bash ~/.config/script/create-main.sh"
 

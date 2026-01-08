@@ -1,7 +1,10 @@
 # source aliasene
 source ~/.config/fish/alias.fish
 
-eval (/opt/homebrew/bin/brew shellenv)
+
+if test (uname) = Darwin
+    eval (/opt/homebrew/bin/brew shellenv)
+end
 
 # sette tmux
 function fish_greeting
@@ -10,14 +13,13 @@ function fish_greeting
 end
 
 
-# div settinggs
+#div settinggs
 export EDITOR=nvim
 fish_vi_key_bindings
 
 # Sorted source commands 
 source $HOME/.cargo/env.fish
 starship init fish | source
-thefuck --alias | source
 zoxide init fish | source
 
 # fzf testering  
