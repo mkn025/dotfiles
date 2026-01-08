@@ -27,9 +27,11 @@ alias fzfj "fzf --preview 'cd $(dirname {}) && ls -la'"
 alias fzf2 "fzf --preview 'fzf-preview.sh {}' --bind 'focus:transform-header:file --brief {}' | xargs nvim"
 
 # config files
+alias fishy "nvim ~/.config/fish/config.fish"
+alias aliass "vim ~/.config/fish/alias.fish"
+
 alias ghs "vim ~/.config/ghostty/config"
 alias ala "nvim ~/.config/alacritty/alacritty.toml"
-alias fishy "nvim ~/.config/fish/config.fish"
 alias tc "nvim ~/.tmux.conf"
 
 ## random skripts
