@@ -4,6 +4,7 @@ source ~/.config/fish/alias.fish
 
 if test (uname) = Darwin
     eval (/opt/homebrew/bin/brew shellenv)
+    source $HOME/.cargo/env.fish
 end
 
 # sette tmux
@@ -18,7 +19,6 @@ export EDITOR=nvim
 fish_vi_key_bindings
 
 # Sorted source commands 
-source $HOME/.cargo/env.fish
 starship init fish | source
 zoxide init fish | source
 
