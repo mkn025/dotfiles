@@ -3,12 +3,12 @@ foreground = ffffff
 background-opacity = 1.0
 
 
-
 # Comments start with a `#` and are only valid on their own line.
 # Blank lines are ignored!
 
 keybind = ctrl+z=close_surface
 keybind = ctrl+s=new_split:right
+keybind = super+d=unbind
 
 # Empty values reset the configuration to the default value
 font-family = "FiraCode Nerd Font"
@@ -27,9 +27,6 @@ shell-integration = fish
 
 
 mouse-hide-while-typing = true
-
-
-
 
 
 palette = 0=#45475a

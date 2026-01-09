@@ -14,6 +14,8 @@ end
 
 
 
+
+alias nf "source ~/.config/fish/config.fish"
 alias pubip "curl -s https://api.ipify.org"
 alias c clear
 alias cat "bat --theme='OneHalfDark' "
@@ -46,6 +48,7 @@ alias aliass "nvim ~/.config/fish/alias.fish"
 alias ghs "vim ~/.config/ghostty/config"
 alias ala "nvim ~/.config/alacritty/alacritty.toml"
 alias tc "nvim ~/.tmux.conf"
+alias vimc "nvim ~/.config/nvim/init.lua"
 
 ## random skripts
 alias ws "bash ~/skript/websiteSkript.sh"
