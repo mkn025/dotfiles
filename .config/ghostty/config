@@ -9,6 +9,7 @@ background-opacity = 1.0
 keybind = ctrl+z=close_surface
 keybind = ctrl+s=new_split:right
 keybind = super+d=unbind
+keybind = super+t=unbind
 
 # Empty values reset the configuration to the default value
 font-family = "FiraCode Nerd Font"
