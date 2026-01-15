@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-tmux switch-client -t main -d ~
+tmux switch-client -t main 
