@@ -1,18 +1,23 @@
 # source aliasene
 source ~/.config/fish/alias.fish
 
-
 if test (uname) = Darwin
     eval (/opt/homebrew/bin/brew shellenv)
     source $HOME/.cargo/env.fish
 end
 
-# sette tmux
 function fish_greeting
     set_color blue
     echo "All the pieces matter"
 end
 
+# sette tmux
+if not set -q TMUX
+    # Create a new detached session named 'base' if it doesn't exist
+    tmux new-session -d -s main
+    # Attach to the 'base' session
+    tmux attach-session -t main
+end
 
 #div settinggs
 export EDITOR=nvim
