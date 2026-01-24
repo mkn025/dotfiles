@@ -10,6 +10,9 @@ if test (uname) = Darwin
     alias qn "bash ~/skript/list_qn.sh"
     alias nqn "bash ~/skript/make_new_qn.sh"
     alias cd_qn "cd ~/Documents/ObsidianFiles/Main/quicknotes/"
+
+    alias pdf "sioyek --nofocus"
+
 end
 
 
@@ -30,9 +33,11 @@ alias visWatt "ioreg -r -c AppleSmartBattery | grep Watts"
 alias tailscale "/Applications/Tailscale.app/Contents/MacOS/Tailscale"
 alias v nvim
 alias vim nvim
+alias :e "nvim ."
 alias y yazi
 alias t "tmux new -s main"
 alias tk "tmux kill-session"
+
 
 
 # fzf commands
