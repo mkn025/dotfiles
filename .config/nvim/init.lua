@@ -19,6 +19,11 @@ vim.opt.expandtab = true
 vim.wo.relativenumber = true
 
 
+
+-- code runner
+vim.keymap.set('n', '<leader>rr', ':RunCode<CR><C-w>p', { noremap = true, silent = true })
+
+
 vim.cmd('autocmd BufEnter * set formatoptions-=cro')
 vim.cmd('autocmd BufEnter * setlocal formatoptions-=cro')
 

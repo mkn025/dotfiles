@@ -36,7 +36,14 @@ alias vim nvim
 alias :e "nvim ."
 alias y yazi
 alias t "tmux new -s main"
-alias tk "tmux kill-session"
+alias tk "tmux kill-server"
+alias gf "git fetch"
+#alias ghcin "touch $1 && ghci $1"
+
+
+
+
+
 
 
 
