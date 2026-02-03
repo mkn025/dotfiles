@@ -3,7 +3,7 @@
 if [[ $# -eq 1 ]]; then
   selected=$1
 else
-  selected=$(find ~/Dev/ ~/Documents/projekter/ ~/Documents/typstFiler/ ~/Dev/UiB/ ~/Dev/UiB/inf221/ ~/skript/  ~/Dev/UiB/inf222/ ~/Dev/UiB/inf222/forelesning_13_jan/ ~ -mindepth 1 -maxdepth 1 -type d | fzf --tmux center,80%,border-native)
+  selected=$(find ~/Dev/ ~/Documents/projekter/ ~/Documents/typstFiler/ ~/Dev/UiB/ ~/Dev/UiB/inf112/ ~/Dev/UiB/exPhil/ ~/Dev/UiB/inf221/ ~/skript/   ~/Dev/UiB/inf222/ ~/Dev/UiB/inf222/forelesning_13_jan/ ~ -mindepth 1 -maxdepth 1 -type d | fzf --tmux center,80%,border-native)
 fi
 
 if [[ -z $selected ]]; then
