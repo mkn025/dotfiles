@@ -21,7 +21,7 @@ if not set -q TMUX
     tmux attach-session -t main
 end
 
-#div settinggs
+#div settings
 export EDITOR=nvim
 fish_vi_key_bindings
 
@@ -29,7 +29,7 @@ fish_vi_key_bindings
 starship init fish | source
 zoxide init fish | source
 
-# fzf testering  
+# fzf testing  
 fzf --fish | source
 set -g FZF_CTRL_T_COMMAND "command find -L \$dir -type f 2> /dev/null | sed '1d; s#^\./##'"
 
