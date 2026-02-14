@@ -1,3 +1,4 @@
+# Nushell alias definitions
 alias ls = eza --icons --sort=date 
 alias l = eza --icons 
 alias l1 = eza -1 --icons 
