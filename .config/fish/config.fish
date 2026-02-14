@@ -6,6 +6,8 @@ if test (uname) = Darwin
     source $HOME/.cargo/env.fish
 end
 
+
+
 function fish_greeting
     set_color blue
     echo "All the pieces matter"
