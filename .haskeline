@@ -1,1 +1,3 @@
+# Haskeline configuration (used by GHCi and other Haskell REPL tools)
+# Use Vi key bindings
 editMode: Vi

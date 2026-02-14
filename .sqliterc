@@ -1,1 +1,3 @@
+# SQLite configuration
+# Display results in table format
 .mode table

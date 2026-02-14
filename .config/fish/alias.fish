@@ -1,6 +1,6 @@
 
 
-# mac spesfikke alias
+# mac spesifikke alias
 if test (uname) = Darwin
     alias up "brew update && brew upgrade"
     alias bs "brew search"
@@ -62,7 +62,7 @@ alias ala "nvim ~/.config/alacritty/alacritty.toml"
 alias tc "nvim ~/.tmux.conf"
 alias vimc "nvim ~/.config/nvim/init.lua"
 
-## random skripts
+## random scripts
 alias ws "bash ~/skript/websiteSkript.sh"
 
 # eza
