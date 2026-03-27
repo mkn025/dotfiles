@@ -17,7 +17,7 @@ end
 
 
 
-
+alias icat "kitten icat"
 alias nf "source ~/.config/fish/config.fish"
 alias pubip "curl -s https://api.ipify.org"
 alias c clear
@@ -39,6 +39,7 @@ alias t "tmux new -s main"
 alias tk "tmux kill-server"
 alias gf "git fetch"
 #alias ghcin "touch $1 && ghci $1"
+#
 
 
 
