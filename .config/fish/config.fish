@@ -35,6 +35,14 @@ set -g FZF_CTRL_T_COMMAND "command find -L \$dir -type f 2> /dev/null | sed '1d;
 
 
 
+set -gx ATUIN_NOBIND "true"
+atuin init fish | source
+
+# bind to ctrl-r in normal and insert mode, add any other bindings you want here too
+bind \cr _atuin_search
+bind -M insert \cr _atuin_search
+
+
 # Set Java 21 as default
 fish_add_path /opt/homebrew/opt/openjdk@21/bin
 
