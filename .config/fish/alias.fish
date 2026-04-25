@@ -18,6 +18,7 @@ end
 
 
 alias icat "kitten icat"
+alias lm "lambdaSearch"
 alias nf "source ~/.config/fish/config.fish"
 alias pubip "curl -s https://api.ipify.org"
 alias c clear

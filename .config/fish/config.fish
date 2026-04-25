@@ -43,6 +43,10 @@ bind \cr _atuin_search
 bind -M insert \cr _atuin_search
 
 
+# rst
+source "$HOME/.cargo/env.fish"
+
+
 # Set Java 21 as default
 fish_add_path /opt/homebrew/opt/openjdk@21/bin
 
