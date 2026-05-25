@@ -13,6 +13,8 @@ vim.g.autoformat = false
 
 
 
+
+
 -- Tab settings: 4 spaces per tab
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
@@ -28,8 +30,13 @@ vim.wo.relativenumber = true
 -- <leader>rr: Run code and return to previous window
 vim.keymap.set('n', '<leader>rr', ':RunCode<CR><C-w>p', { noremap = true, silent = true })
 
+vim.keymap.set("x", "<leader>p", [["_dP]])
+
 
 -- Disable automatic comment continuation on new lines
 vim.cmd('autocmd BufEnter * set formatoptions-=cro')
 vim.cmd('autocmd BufEnter * setlocal formatoptions-=cro')
+
+
+vim.lsp.enable("kotlin_language_server", false)
 
