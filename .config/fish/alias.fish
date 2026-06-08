@@ -78,3 +78,4 @@ alias tmuxinit "bash ~/.config/script/tmux-sessionizer.sh"
 alias ti "bash ~/.config/script/tmux-sessionizer.sh"
 alias tm "bash ~/.config/script/create-main.sh"
 
+alias cr 'cargo run'
