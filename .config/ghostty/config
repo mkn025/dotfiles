@@ -11,6 +11,8 @@ keybind = ctrl+s=unbind
 keybind = super+d=unbind
 keybind = super+t=unbind
 
+keybind = super+p=paste_from_clipboard
+
 # Empty values reset the configuration to the default value
 font-family = "FiraCode Nerd Font"
 font-size = 18
@@ -22,7 +24,7 @@ window-padding-y = 13,13
 window-height = 31
 window-width = 97
 
-# som opption   
+# som options   
 copy-on-select = clipboard
 shell-integration = fish
 
