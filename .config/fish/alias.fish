@@ -39,6 +39,10 @@ alias y yazi
 alias t "tmux new -s main"
 alias tk "tmux kill-server"
 alias gf "git fetch"
+alias nuc "nu -c"
+alias week "date +%V"
+
+
 #alias ghcin "touch $1 && ghci $1"
 #
 
