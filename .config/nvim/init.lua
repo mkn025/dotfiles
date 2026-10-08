@@ -28,6 +28,11 @@ vim.wo.relativenumber = true
 
 -- Code runner keybinding
 -- <leader>rr: Run code and return to previous window
+
+vim.keymap.set("n", "<Esc>", ':w')
+
+
+
 vim.keymap.set('n', '<leader>rr', ':RunCode<CR><C-w>p', { noremap = true, silent = true })
 
 vim.keymap.set("x", "<leader>p", [["_dP]])

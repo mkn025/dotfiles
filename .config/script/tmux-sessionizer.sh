@@ -7,7 +7,7 @@
 if [[ $# -eq 1 ]]; then
   selected=$1
 else
-  selected=$(find ~/Dev/ ~/Documents/projekter/ ~/Documents/typstFiler/ ~/Dev/UiB/stat110/  ~/Dev/UiB/ ~/Dev/UiB/inf221/semesterProjekt/ ~/Dev/UiB/inf221/ ~/skript/   ~ -mindepth 1 -maxdepth 1 -type d | fzf --tmux center,80%,border-native )
+  selected=$(find ~/Dev/ ~/Documents/projekter/ ~/Documents/typstFiler/ ~/Dev/UiB/stat110/  ~/Dev/UiB/ ~/Dev/UiB/inf226/ ~/Dev/UiB/inf221/semesterProjekt/ ~/Dev/UiB/inf214/ ~/Dev/UiB/inf221/ ~/skript/   ~ -mindepth 1 -maxdepth 1 -type d | fzf --tmux center,80%,border-native )
 fi
 
 # Exit if no directory was selected

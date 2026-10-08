@@ -41,6 +41,8 @@ alias tk "tmux kill-server"
 alias gf "git fetch"
 alias nuc "nu -c"
 alias week "date +%V"
+alias fz "fd -e pdf | fzf --tmux 80% | xargs zathura"
+alias python "python3"
 
 
 #alias ghcin "touch $1 && ghci $1"

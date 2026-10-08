@@ -9,7 +9,7 @@ background-opacity = 1.0
 keybind = ctrl+z=unbind
 keybind = ctrl+s=unbind
 keybind = super+d=unbind
-keybind = super+t=unbind
+#keybind = super+t=unbind
 
 keybind = super+p=paste_from_clipboard
 

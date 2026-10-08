@@ -21,6 +21,9 @@ if not set -q TMUX
     tmux attach-session -t main
 end
 
+
+
+
 #div settings
 export EDITOR=nvim
 fish_vi_key_bindings
@@ -52,7 +55,7 @@ fish_add_path /opt/homebrew/opt/openjdk@21/bin
 
 set -gx CPPFLAGS "-I/opt/homebrew/opt/openjdk@21/include"
 
-set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; set -gx PATH $HOME/.cabal/bin /Users/martineldeknutsen/.ghcup/bin $PATH # ghcup-env
+set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; set -gx PATH $HOME/.cabal/bin $HOME/.ghcup/bin $PATH # ghcup-env
 
 # Created by `pipx` on 2026-06-08 20:50:23
 set PATH $PATH /Users/martineldeknutsen/.local/bin
