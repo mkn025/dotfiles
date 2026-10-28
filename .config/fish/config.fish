@@ -14,12 +14,12 @@ function fish_greeting
 end
 
 # sette tmux
-if not set -q TMUX
-    # Create a new detached session named 'base' if it doesn't exist
-    tmux new-session -d -s main 
-    # Attach to the 'base' session
-    tmux attach-session -t main
-end
+# if not set -q TMUX
+#     # Create a new detached session named 'base' if it doesn't exist
+#     tmux new-session -d -s main 
+#     # Attach to the 'base' session
+#     tmux attach-session -t main
+# end
 
 
 
